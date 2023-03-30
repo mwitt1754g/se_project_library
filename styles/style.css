@@ -45,11 +45,12 @@
   text-decoration: none;
   font-weight: bold;
   padding: 0px;
+  
 }
 
 .nav__link:hover {
   color: #1f69c9;
-  text-decoration: none;
+  
 }
 
 .header__title {
@@ -57,6 +58,10 @@
   line-height: 76px;
   font-weight: 500;
   max-width: 544px;
+  margin: auto;
+  top: 44px;
+  bottom: 44px;
+
 }
 
 .header__description {
@@ -67,10 +72,11 @@
 
 .header__image {
   position: absolute;
-  top: 80px;
-  right: 100px;
+  top: 135px;
+  right: 20px;
   max-width: 636px;
   z-index: -1;
+  
 }
 
 .header__footer {
@@ -88,11 +94,12 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+  
 }
 
 .header__link:hover {
   color: #1f69c9;
-  text-decoration: none;
+  
 }
 
 .header__address {
@@ -166,15 +173,16 @@
 }
 
 .events__more {
-  margin-top: 60px;
+  
   color: #2f80ed;
   text-decoration: none;
+  
 }
 
 .events__more:hover {
   margin-top: 60px;
   color: #1f69c9;
-  text-decoration: none;
+  
 }
 
 .events__cover {
@@ -187,44 +195,48 @@
 
 .events__image {
   max-width: 100%;
-  /* position: absolute;
-  top: 50px;
-  left: 725px; */
+  
 }
 
 .person {
   position: absolute;
   display: flex;
   align-items: center;
-  flex-direction: column;
-  gap: 10px;
+  flex-direction: column-reverse;
+  gap: 10px;  
 }
 
 .person_name_feynman {
   top: -30px;
-  left: 319px;
+  left: 319px; 
+ 
 }
 
 .person_name_burbidge {
   top: 96px;
   right: 125px;
-  flex-direction: column-reverse;
+  
 }
 
 .person_name_cannon {
   bottom: 18px;
   right: 216px;
+  align-items: center;
+  flex-direction: column;
 }
 
 .person_name_mitchell {
   bottom: 82px;
   left: 142px;
+  align-items: center;
+  flex-direction: column;
 }
 
 .person_name_tarter {
   top: 79px;
   left: 159px;
-  flex-direction: column-reverse;
+  
+  
 }
 
 .person__image {
@@ -274,10 +286,9 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
-  margin: 24px 0px 40px;
+  margin: 24px 0px 68px;
   color: white;
-
-  
+    
 }
 
 /* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
@@ -285,7 +296,6 @@
 
 .staff__cards {
   max-width: 760px;
-  top: 68px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -294,6 +304,7 @@
   padding: 0;
   gap: 40px;
   list-style-type: none;
+  
   
 
 }
@@ -324,10 +335,11 @@
 }
 
 .card__text {
-  margin: 20px 0 0;
+  margin-top: auto;
   font-size: 16px;
   line-height: 24px;
-  margin-top: auto;
+  
+  
 }
 
 .card__footer {
@@ -362,18 +374,15 @@
   padding: 0;
   margin: 100px 0 0;
   display: flex;
-  flex-basis: 220px;
   justify-content: center;
   gap: 40px;
-  /* border: 1px solid red; */
-  /* Add styles */
+  
 }
 
 .step {
   flex-basis: 220px;
-  gap: 40px;
-  /* border: 1px solid lime; */
-  /* Add styles */
+  
+  
 }
 
 .step__title {
@@ -398,19 +407,22 @@
   background-color: #1f1f1f;
   color: #fff;
   overflow: hidden;
+  display: flex;
   position: relative;
   box-sizing: border-box;
+  
   
 }
 
 .about__title {
-  margin: 50px 0px -30px;
+  margin: 10px 0px 0px;
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
   max-width: 154px;
   position: relative;
   z-index: 1;
+  
   
 }
 
@@ -423,12 +435,21 @@
   position: relative;
   z-index: 1;
   
+  
 }
 
 .about__paragraph {
   margin: 0px 0px 32px;
+
+}
+
+.about__paragraph :last-child{
+  margin-bottom: 0;
+
   
 }
+
+
 
 .about__circle {
   background-color: #2f80ed;
@@ -453,7 +474,7 @@
 
 .footer__columns {
   display: flex;
-  margin: 60px 102px 108px 0px;
+  
 }
 
 .footer__column_content_hours {
@@ -487,11 +508,13 @@
 }
 
 .footer__column-heading {
+  font-size: 16px;
   margin: 0 0 20px;
+  
 }
 
 .footer__column-link{
-  color: #c1c1c1;
+  color: #2f80ed;
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
@@ -504,7 +527,7 @@
   color: #c1c1c1;
   font-size: 16px;
   line-height: 20px;
-  text-decoration: none;
+  
   
 }
 
