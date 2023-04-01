@@ -56,9 +56,9 @@
   line-height: 76px;
   font-weight: 500;
   max-width: 544px;
-  margin: auto;
-  top: 44px;
-  bottom: 44px;
+  /* margin: auto; */
+  margin: 200px 0px 20px;
+  
 }
 
 .header__description {
@@ -173,7 +173,6 @@
 }
 
 .events__more:hover {
-  margin-top: 60px;
   color: #1f69c9;
 }
 
@@ -308,9 +307,10 @@
 }
 
 .card__text {
-  margin-top: auto;
+  margin: auto;
   font-size: 16px;
   line-height: 24px;
+  
 }
 
 .card__footer {
@@ -327,7 +327,7 @@
   padding-top: 100px;
   padding-bottom: 140px;
   background-color: #f2f2f2;
-  /* border: 1px solid red; */
+  
 }
 
 .membership__title {
@@ -337,7 +337,7 @@
   font-size: 44px;
   font-weight: 500;
   line-height: 52px;
-  /* border: 1px solid red; */
+  
 }
 
 .membership__steps {
@@ -381,13 +381,14 @@
 }
 
 .about__title {
-  margin: 10px 0px 0px;
+  margin: 0px;
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
   max-width: 154px;
   position: relative;
   z-index: 1;
+  
 }
 
 .about__content {
@@ -404,7 +405,7 @@
   margin: 0px 0px 32px;
 }
 
-.about__paragraph :last-child {
+.about__paragraph:last-child {
   margin-bottom: 0;
 }
 
@@ -467,18 +468,19 @@
 }
 
 .footer__column-link {
-  color: #2f80ed;
+  color: #1f69c9;
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
   display: flex;
   align-items: center;
+  
 }
 
 .footer__column-link:hover {
   color: #c1c1c1;
-  font-size: 16px;
-  line-height: 20px;
+  
+  
 }
 
 .footer__social-icon {
